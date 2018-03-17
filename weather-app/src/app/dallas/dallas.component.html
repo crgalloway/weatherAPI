@@ -1,0 +1,12 @@
+<link rel="stylesheet" type="text/css" href="/dallas.component.css">
+<h1>Dallas, TX</h1>
+<div id='info'>
+	<p>Humidity: {{ weatherData['humidity'] }}%</p>
+	<p>Temp(Avg): {{ weatherData['temp'] }}° F</p>
+	<p>Temp(Min): {{ weatherData['temp_min'] }}° F</p>
+	<p>Temp(Max): {{ weatherData['temp_max'] }}° F</p>
+	<p>Status: {{ weatherData['description'] }}</p>
+</div>
+<div id="imageWrap">
+	<img id="image" src="http://dallascityhall.com/SpotLight/Dallas-Bond-Program-Web.jpg">
+</div>

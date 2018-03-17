@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<link rel="stylesheet" type="text/css" href="/app.component.css">
+<div style="text-align:center">
+  <h1>
+    Welcome to {{ title }}!
+  </h1>
+
+</div>
+<h2>Here are some links to help you start: </h2>
+<button [routerLink]="['seattle']" skipLocationChange>Seattle, WA</button>
+<button [routerLink]="['sanjose']" skipLocationChange>San Jose, CA</button>
+<button [routerLink]="['burbank']" skipLocationChange>Burbank, CA</button>
+<button [routerLink]="['dallas']" skipLocationChange>Dallas, TX</button>
+<button [routerLink]="['dc']" skipLocationChange>Washington, D.C.</button>
+<button [routerLink]="['chicago']" skipLocationChange>Chicago, IL</button>
+<div id="results">
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,16 @@
+h1{
+	text-align: center
+}
+#info{
+	display: inline-block;
+	width: 45%
+}
+#imageWrap{
+	display: inline-block;
+	vertical-align: top;
+	width: 45%
+}
+#image{
+	display: inline-block;
+	width: 60%
+}
